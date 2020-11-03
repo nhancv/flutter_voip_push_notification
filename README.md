@@ -1,10 +1,10 @@
 # Flutter VoIP Push Notification
 [![pub package](https://img.shields.io/pub/v/flutter_voip_push_notification.svg)](https://pub.dartlang.org/packages/flutter_voip_push_notification)
-Flutter VoIP Push Notification - Currently iOS >= 8.0 only
+Flutter VoIP Push Notification - Currently iOS >= 10.0 only
 
 ## Motivation
 
-Since iOS 8.0 there is an execellent feature called **VoIP Push Notification** ([PushKit][1]), while [firebase_messaging][3] does not support voip push notification which is only available on iOS >= 8.0 which is the reason for this plugin.
+Since iOS 10.0 there is an execellent feature called **VoIP Push Notification** ([PushKit][1]), while [firebase_messaging][3] does not support voip push notification which is only available on iOS >= 10.0 which is the reason for this plugin.
 
 To understand the benefits of **Voip Push Notification**, please see [VoIP Best Practices][2].
 
@@ -14,7 +14,7 @@ To understand the benefits of **Voip Push Notification**, please see [VoIP Best 
 
 ### iOS
 
-The iOS version should be >= 8.0 since we are using [PushKit][1].
+The iOS version should be >= 10.0 since we are using [PushKit][1].
 
 #### Enable VoIP Push Notification and Get VoIP Certificate
 
